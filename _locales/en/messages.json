@@ -68,6 +68,15 @@
   "welcomeBlockedDesc": {
     "message": "Dangerous sites are automatically blocked with a red badge."
   },
+  "welcomePinTitle": {
+    "message": "Important Tip: Pin the Extension!"
+  },
+  "welcomePinDesc": {
+    "message": "For the best experience, pin the ICheck icon to your toolbar. This way you'll instantly see the colored badge (✓ green, ! yellow, ✕ red) indicating the status of each site you visit."
+  },
+  "welcomePinSteps": {
+    "message": "📍 Click the extensions icon (puzzle piece) in the top right corner → Click the pin next to ICheck"
+  },
   "welcomeChooseTitle": {
     "message": "🚀 How Do You Want to Start?"
   },

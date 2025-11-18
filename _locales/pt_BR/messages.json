@@ -68,6 +68,15 @@
   "welcomeBlockedDesc": {
     "message": "Sites perigosos são bloqueados automaticamente com badge vermelho."
   },
+  "welcomePinTitle": {
+    "message": "Dica Importante: Fixe a Extensão!"
+  },
+  "welcomePinDesc": {
+    "message": "Para uma melhor experiência, fixe o ícone do ICheck na barra de ferramentas. Assim você verá instantaneamente o badge colorido (✓ verde, ! amarelo, ✕ vermelho) indicando o status de cada site que visitar."
+  },
+  "welcomePinSteps": {
+    "message": "📍 Clique no ícone de extensões (quebra-cabeça) no canto superior direito → Clique no pino ao lado do ICheck"
+  },
   "welcomeChooseTitle": {
     "message": "🚀 Como Você Quer Começar?"
   },
