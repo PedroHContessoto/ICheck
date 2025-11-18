@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="optionsPageTitle">ICheck - Gerenciar Listas</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-content">
+        <img src="icons/icon48.png" alt="ICheck" class="logo">
+        <div>
+          <h1 data-i18n="optionsTitle">ICheck</h1>
+          <p class="subtitle" data-i18n="optionsSubtitle">Sua muralha pessoal contra o phishing</p>
+        </div>
+      </div>
+      <div class="language-selector">
+        <label data-i18n="welcomeLanguageLabel">🌐 Escolha seu idioma:</label>
+        <select id="languageSelect">
+          <option value="pt_BR">Português (Brasil)</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="intro">
+        <h2 data-i18n="optionsIntroTitle">🛡️ Você no Controle da Sua Segurança</h2>
+        <p data-i18n="optionsIntroDesc">
+          Gerencie suas listas de sites confiáveis e não confiáveis. Todas as informações são armazenadas
+          localmente no seu navegador e nunca são enviadas para a internet.
+        </p>
+      </div>
+
+      <div class="stats">
+        <div class="stat-card stat-trusted">
+          <div class="stat-icon">✓</div>
+          <div class="stat-info">
+            <div class="stat-number" id="trustedCount">0</div>
+            <div class="stat-label" data-i18n="optionsTrustedCount">Sites Confiáveis</div>
+          </div>
+        </div>
+        <div class="stat-card stat-untrusted">
+          <div class="stat-icon">✗</div>
+          <div class="stat-info">
+            <div class="stat-number" id="untrustedCount">0</div>
+            <div class="stat-label" data-i18n="optionsUntrustedCount">Sites Bloqueados</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h3 data-i18n="optionsTrustedTitle">✓ Sites Confiáveis</h3>
+          <button class="btn btn-small btn-secondary" id="btnExportTrusted" data-i18n="optionsExport">
+            ⬇ Exportar
+          </button>
+        </div>
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchTrusted"
+            class="search-input"
+            data-i18n-placeholder="optionsSearchTrusted"
+            placeholder="🔍 Buscar site confiável..."
+          >
+        </div>
+        <div class="list-container">
+          <div id="trustedList" class="site-list"></div>
+          <div id="trustedEmpty" class="empty-state">
+            <span data-i18n="optionsEmptyTrusted">Nenhum site confiável cadastrado ainda.</span>
+            <br>
+            <small data-i18n="optionsEmptyTrustedHint">Clique no ícone do ICheck ao visitar um site para marcá-lo como confiável.</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h3 data-i18n="optionsUntrustedTitle">✗ Sites Não Confiáveis (Bloqueados)</h3>
+          <button class="btn btn-small btn-secondary" id="btnExportUntrusted" data-i18n="optionsExport">
+            ⬇ Exportar
+          </button>
+        </div>
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchUntrusted"
+            class="search-input"
+            data-i18n-placeholder="optionsSearchUntrusted"
+            placeholder="🔍 Buscar site bloqueado..."
+          >
+        </div>
+        <div class="list-container">
+          <div id="untrustedList" class="site-list"></div>
+          <div id="untrustedEmpty" class="empty-state">
+            <span data-i18n="optionsEmptyUntrusted">Nenhum site bloqueado ainda.</span>
+            <br>
+            <small data-i18n="optionsEmptyUntrustedHint">Sites marcados como não confiáveis serão bloqueados automaticamente.</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h3 data-i18n="optionsManagementTitle">⚙️ Gerenciamento de Dados</h3>
+        </div>
+        <div class="management-actions">
+          <button class="btn btn-secondary" id="btnImport" data-i18n="optionsImport">
+            📥 Importar Lista
+          </button>
+          <button class="btn btn-secondary" id="btnExportAll" data-i18n="optionsExportAll">
+            📤 Exportar Tudo
+          </button>
+          <button class="btn btn-danger" id="btnClearAll" data-i18n="optionsClearAll">
+            🗑️ Limpar Todas as Listas
+          </button>
+        </div>
+        <input type="file" id="fileInput" accept=".json" style="display: none;">
+      </div>
+
+      <div class="section info-section">
+        <h3 data-i18n="optionsAboutTitle">ℹ️ Sobre o ICheck</h3>
+        <p data-i18n="optionsAboutDesc">
+          O ICheck é uma ferramenta de conscientização ativa contra phishing.
+          Em vez de confiar em listas de terceiros, você ensina ao ICheck quais sites são legítimos.
+        </p>
+        <ul>
+          <li><strong data-i18n="optionsAboutFeature1">100% Local: Seus dados nunca saem do seu computador</strong></li>
+          <li><strong data-i18n="optionsAboutFeature2">100% Open Source: Código aberto e auditável</strong></li>
+          <li><strong data-i18n="optionsAboutFeature3">Educativo: Cria o hábito de verificar URLs antes de inserir dados</strong></li>
+        </ul>
+        <p class="version" data-i18n="optionsVersion">Versão 1.0.0</p>
+      </div>
+    </main>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h3 id="modalTitle">Confirmar Ação</h3>
+      <p id="modalMessage"></p>
+      <div class="modal-actions">
+        <button class="btn btn-secondary" id="btnModalCancel">Cancelar</button>
+        <button class="btn btn-danger" id="btnModalConfirm">Confirmar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

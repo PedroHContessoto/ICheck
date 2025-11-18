@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Package manager
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+
+# Archives
+*.zip
+*.rar
+*.7z

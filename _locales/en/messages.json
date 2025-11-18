@@ -1,0 +1,290 @@
+{
+  "extensionName": {
+    "message": "ICheck - Your Wall Against Phishing"
+  },
+  "extensionDescription": {
+    "message": "Your personal wall against phishing. Simple, local and 100% open source."
+  },
+  "popupSiteTrusted": {
+    "message": "Safe Site"
+  },
+  "popupSiteUntrusted": {
+    "message": "Blocked Site"
+  },
+  "popupSiteUnknown": {
+    "message": "Unclassified Site"
+  },
+  "popupMarkTrusted": {
+    "message": "Accept"
+  },
+  "popupMarkUntrusted": {
+    "message": "Block"
+  },
+  "popupManageLists": {
+    "message": "⚙️ Manage Lists"
+  },
+  "popupSuccessTrusted": {
+    "message": "✓ Site accepted as safe!"
+  },
+  "popupSuccessUntrusted": {
+    "message": "✗ Site blocked!"
+  },
+  "popupErrorNoInfo": {
+    "message": "Could not get page information"
+  },
+  "popupErrorInternal": {
+    "message": "This extension does not work on internal browser pages"
+  },
+  "popupErrorCheck": {
+    "message": "Error checking site"
+  },
+  "popupErrorLoad": {
+    "message": "Error loading site information"
+  },
+  "welcomeTitle": {
+    "message": "🎉 Welcome to ICheck!"
+  },
+  "welcomeSubtitle": {
+    "message": "Your personal wall against phishing"
+  },
+  "welcomeHowWorks": {
+    "message": "🛡️ How ICheck Works?"
+  },
+  "welcomeTrustedTitle": {
+    "message": "Trusted Sites"
+  },
+  "welcomeTrustedDesc": {
+    "message": "Mark sites you trust. They will have a green badge."
+  },
+  "welcomeUnknownTitle": {
+    "message": "Unclassified Sites"
+  },
+  "welcomeUnknownDesc": {
+    "message": "Sites you haven't marked yet appear with a yellow badge."
+  },
+  "welcomeBlockedTitle": {
+    "message": "Blocked Sites"
+  },
+  "welcomeBlockedDesc": {
+    "message": "Dangerous sites are automatically blocked with a red badge."
+  },
+  "welcomeChooseTitle": {
+    "message": "🚀 How Do You Want to Start?"
+  },
+  "welcomeChooseDesc": {
+    "message": "We've prepared a list with 190+ safe sites (banks, government, social networks, e-commerce, etc) so you can start protected from day one."
+  },
+  "welcomeOptionRecommended": {
+    "message": "Recommended"
+  },
+  "welcomeOptionSafeListTitle": {
+    "message": "Use Safe Sites List"
+  },
+  "welcomeOptionSafeListDesc": {
+    "message": "Start with 190+ trusted sites already marked"
+  },
+  "welcomeOptionEmptyTitle": {
+    "message": "Start from Scratch"
+  },
+  "welcomeOptionEmptyDesc": {
+    "message": "Create your own custom list from the beginning"
+  },
+  "welcomeBenefit1": {
+    "message": "✅ Google, YouTube, Facebook, Instagram"
+  },
+  "welcomeBenefit2": {
+    "message": "✅ Brazilian banks (Nubank, Inter, Itaú, etc)"
+  },
+  "welcomeBenefit3": {
+    "message": "✅ Government sites (gov.br, Tax Authority, Social Security)"
+  },
+  "welcomeBenefit4": {
+    "message": "✅ E-commerce (Amazon, Mercado Livre, Shopee)"
+  },
+  "welcomeBenefit5": {
+    "message": "✅ Popular tools (GitHub, Stack Overflow)"
+  },
+  "welcomeEmptyBenefit1": {
+    "message": "• Total control over each site"
+  },
+  "welcomeEmptyBenefit2": {
+    "message": "• Learn by manually marking sites"
+  },
+  "welcomeEmptyBenefit3": {
+    "message": "• Ideal for advanced users"
+  },
+  "welcomeNote": {
+    "message": "💡 Note: You can always add or remove sites later in \"Manage Lists\""
+  },
+  "welcomeFooter": {
+    "message": "🔒 Your data stays 100% local in your browser"
+  },
+  "welcomeLoading": {
+    "message": "Loading safe sites list..."
+  },
+  "welcomeLanguageLabel": {
+    "message": "🌐 Choose your language:"
+  },
+  "optionsTitle": {
+    "message": "ICheck"
+  },
+  "optionsPageTitle": {
+    "message": "ICheck - Manage Lists"
+  },
+  "optionsSubtitle": {
+    "message": "Your personal wall against phishing"
+  },
+  "optionsIntroTitle": {
+    "message": "🛡️ You're in Control of Your Security"
+  },
+  "optionsIntroDesc": {
+    "message": "Manage your lists of trusted and untrusted sites. All information is stored locally in your browser and is never sent to the internet."
+  },
+  "optionsTrustedCount": {
+    "message": "Trusted Sites"
+  },
+  "optionsUntrustedCount": {
+    "message": "Blocked Sites"
+  },
+  "optionsTrustedTitle": {
+    "message": "✓ Trusted Sites"
+  },
+  "optionsUntrustedTitle": {
+    "message": "✗ Untrusted Sites (Blocked)"
+  },
+  "optionsExport": {
+    "message": "⬇ Export"
+  },
+  "optionsSearchPlaceholder": {
+    "message": "🔍 Search site..."
+  },
+  "optionsSearchTrusted": {
+    "message": "🔍 Search trusted site..."
+  },
+  "optionsSearchUntrusted": {
+    "message": "🔍 Search blocked site..."
+  },
+  "optionsRemove": {
+    "message": "Remove"
+  },
+  "optionsEmptyTrusted": {
+    "message": "No trusted sites registered yet."
+  },
+  "optionsEmptyTrustedHint": {
+    "message": "Click the ICheck icon when visiting a site to mark it as trusted."
+  },
+  "optionsEmptyUntrusted": {
+    "message": "No blocked sites yet."
+  },
+  "optionsEmptyUntrustedHint": {
+    "message": "Sites marked as untrusted will be automatically blocked."
+  },
+  "optionsNoResults": {
+    "message": "No sites found for"
+  },
+  "optionsManagementTitle": {
+    "message": "⚙️ Data Management"
+  },
+  "optionsImport": {
+    "message": "📥 Import List"
+  },
+  "optionsExportAll": {
+    "message": "📤 Export All"
+  },
+  "optionsClearAll": {
+    "message": "🗑️ Clear All Lists"
+  },
+  "optionsAboutTitle": {
+    "message": "ℹ️ About ICheck"
+  },
+  "optionsAboutDesc": {
+    "message": "ICheck is an active awareness tool against phishing. Instead of relying on third-party lists, you teach ICheck which sites are legitimate."
+  },
+  "optionsAboutFeature1": {
+    "message": "100% Local: Your data never leaves your computer"
+  },
+  "optionsAboutFeature2": {
+    "message": "100% Open Source: Open and auditable code"
+  },
+  "optionsAboutFeature3": {
+    "message": "Educational: Creates the habit of checking URLs before entering data"
+  },
+  "optionsVersion": {
+    "message": "Version 1.0.0"
+  },
+  "contentBlockedTitle": {
+    "message": "SITE BLOCKED"
+  },
+  "contentBlockedMessage": {
+    "message": "You marked this site as UNTRUSTED"
+  },
+  "contentBlockedInfo": {
+    "message": "This site is on your personal block list."
+  },
+  "contentBtnBack": {
+    "message": "← Go Back Safely"
+  },
+  "contentBtnProceed": {
+    "message": "Proceed Anyway (Not Recommended)"
+  },
+  "optionsTryAgain": {
+    "message": "Try another search."
+  },
+  "optionsInvalidFile": {
+    "message": "Invalid file. The format must contain a \"sites\" array."
+  },
+  "optionsImportTitle": {
+    "message": "Import List"
+  },
+  "optionsImportMessage": {
+    "message": "Found $1 sites. Import as:",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "optionsTrustedLabel": {
+    "message": "Trusted"
+  },
+  "optionsUntrustedLabel": {
+    "message": "Untrusted"
+  },
+  "optionsImportedTrusted": {
+    "message": "$1 sites imported as trusted!",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "optionsImportedUntrusted": {
+    "message": "$1 sites imported as untrusted!",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "optionsReadError": {
+    "message": "Error reading file. Make sure it's a valid JSON file."
+  },
+  "optionsClearAllTitle": {
+    "message": "Clear All Lists"
+  },
+  "optionsClearAllMessage": {
+    "message": "Are you sure you want to remove ALL sites from your lists? This action cannot be undone."
+  },
+  "optionsClearedAll": {
+    "message": "All lists have been cleared!"
+  },
+  "optionsConfirm": {
+    "message": "Confirm"
+  },
+  "optionsCancel": {
+    "message": "Cancel"
+  }
+}

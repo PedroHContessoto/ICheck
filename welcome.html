@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="welcomeTitle">Bem-vindo ao ICheck!</title>
+  <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+  <div class="language-selector-top">
+    <label data-i18n="welcomeLanguageLabel">🌐 Escolha seu idioma:</label>
+    <select id="languageSelect">
+      <option value="pt_BR">Português (Brasil)</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+
+  <div class="container">
+    <div class="welcome-card">
+      <div class="header">
+        <img src="icons/icon128.png" alt="ICheck" class="logo">
+        <h1 data-i18n="welcomeTitle">🎉 Bem-vindo ao ICheck!</h1>
+        <p class="subtitle" data-i18n="welcomeSubtitle">Sua muralha pessoal contra o phishing</p>
+      </div>
+
+      <div class="content">
+        <div class="info-section">
+          <h2 data-i18n="welcomeHowWorks">🛡️ Como o ICheck Funciona?</h2>
+          <div class="info-grid">
+            <div class="info-item">
+              <div class="info-icon">✓</div>
+              <h3 data-i18n="welcomeTrustedTitle">Sites Confiáveis</h3>
+              <p data-i18n="welcomeTrustedDesc">Marque sites que você confia. Eles terão um badge verde.</p>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">!</div>
+              <h3 data-i18n="welcomeUnknownTitle">Sites Não Classificados</h3>
+              <p data-i18n="welcomeUnknownDesc">Sites que você ainda não marcou aparecem com badge amarelo.</p>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">✕</div>
+              <h3 data-i18n="welcomeBlockedTitle">Sites Bloqueados</h3>
+              <p data-i18n="welcomeBlockedDesc">Sites perigosos são bloqueados automaticamente com badge vermelho.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="choice-section">
+          <h2 data-i18n="welcomeChooseTitle">🚀 Como Você Quer Começar?</h2>
+          <p class="choice-description" data-i18n="welcomeChooseDesc">
+            Preparamos uma lista com 190+ sites seguros (bancos, governo, redes sociais, e-commerce, etc) para você começar protegido desde o primeiro dia.
+          </p>
+
+          <div class="options">
+            <button class="option-btn option-recommended" id="btnUseSafeList">
+              <div class="option-badge" data-i18n="welcomeOptionRecommended">Recomendado</div>
+              <div class="option-icon">📋</div>
+              <h3 data-i18n="welcomeOptionSafeListTitle">Usar Lista de Sites Seguros</h3>
+              <p data-i18n="welcomeOptionSafeListDesc">Comece com 190+ sites confiáveis já marcados</p>
+              <ul class="option-benefits">
+                <li data-i18n="welcomeBenefit1">✅ Google, YouTube, Facebook, Instagram</li>
+                <li data-i18n="welcomeBenefit2">✅ Bancos brasileiros (Nubank, Inter, Itaú, etc)</li>
+                <li data-i18n="welcomeBenefit3">✅ Sites do governo (gov.br, Receita, INSS)</li>
+                <li data-i18n="welcomeBenefit4">✅ E-commerce (Amazon, Mercado Livre, Shopee)</li>
+                <li data-i18n="welcomeBenefit5">✅ Ferramentas populares (GitHub, Stack Overflow)</li>
+              </ul>
+            </button>
+
+            <button class="option-btn option-empty" id="btnStartEmpty">
+              <div class="option-icon">🆕</div>
+              <h3 data-i18n="welcomeOptionEmptyTitle">Começar do Zero</h3>
+              <p data-i18n="welcomeOptionEmptyDesc">Crie sua própria lista personalizada desde o início</p>
+              <ul class="option-benefits">
+                <li data-i18n="welcomeEmptyBenefit1">• Controle total sobre cada site</li>
+                <li data-i18n="welcomeEmptyBenefit2">• Aprenda marcando sites manualmente</li>
+                <li data-i18n="welcomeEmptyBenefit3">• Ideal para usuários experientes</li>
+              </ul>
+            </button>
+          </div>
+
+          <div class="note">
+            <strong data-i18n="welcomeNote">💡 Nota: Você pode sempre adicionar ou remover sites depois em "Gerenciar Listas"</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p data-i18n="welcomeFooter">🔒 Seus dados ficam 100% locais no seu navegador</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="loadingOverlay" class="loading-overlay">
+    <div class="loading-content">
+      <div class="spinner"></div>
+      <p data-i18n="welcomeLoading">Carregando lista de sites seguros...</p>
+    </div>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="welcome.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICheck</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="status-section" id="statusSection">
+      <div class="status-icon" id="statusIcon">🔍</div>
+      <div class="status-message" id="statusMessage">Verificando...</div>
+      <div class="site-url" id="siteUrl"></div>
+    </div>
+
+    <div class="actions" id="actions">
+      <button class="btn btn-accept" id="btnAccept">
+        <span class="btn-icon">✓</span>
+        <span data-i18n="popupMarkTrusted">Aceitar</span>
+      </button>
+      <button class="btn btn-deny" id="btnDeny">
+        <span class="btn-icon">✗</span>
+        <span data-i18n="popupMarkUntrusted">Bloquear</span>
+      </button>
+    </div>
+
+    <div class="footer">
+      <button class="btn-settings" id="btnSettings" data-i18n="popupManageLists">
+        ⚙️ Gerenciar Listas
+      </button>
+    </div>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

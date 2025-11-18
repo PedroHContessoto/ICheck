@@ -1,0 +1,290 @@
+{
+  "extensionName": {
+    "message": "ICheck - Sua Muralha Contra Phishing"
+  },
+  "extensionDescription": {
+    "message": "A sua muralha pessoal contra o phishing. Simples, local e 100% open source."
+  },
+  "popupSiteTrusted": {
+    "message": "Site Seguro"
+  },
+  "popupSiteUntrusted": {
+    "message": "Site Bloqueado"
+  },
+  "popupSiteUnknown": {
+    "message": "Site Não Classificado"
+  },
+  "popupMarkTrusted": {
+    "message": "Aceitar"
+  },
+  "popupMarkUntrusted": {
+    "message": "Bloquear"
+  },
+  "popupManageLists": {
+    "message": "⚙️ Gerenciar Listas"
+  },
+  "popupSuccessTrusted": {
+    "message": "✓ Site aceito como seguro!"
+  },
+  "popupSuccessUntrusted": {
+    "message": "✗ Site bloqueado!"
+  },
+  "popupErrorNoInfo": {
+    "message": "Não foi possível obter informações da página"
+  },
+  "popupErrorInternal": {
+    "message": "Esta extensão não funciona em páginas internas do navegador"
+  },
+  "popupErrorCheck": {
+    "message": "Erro ao verificar o site"
+  },
+  "popupErrorLoad": {
+    "message": "Erro ao carregar informações do site"
+  },
+  "welcomeTitle": {
+    "message": "🎉 Bem-vindo ao ICheck!"
+  },
+  "welcomeSubtitle": {
+    "message": "Sua muralha pessoal contra o phishing"
+  },
+  "welcomeHowWorks": {
+    "message": "🛡️ Como o ICheck Funciona?"
+  },
+  "welcomeTrustedTitle": {
+    "message": "Sites Confiáveis"
+  },
+  "welcomeTrustedDesc": {
+    "message": "Marque sites que você confia. Eles terão um badge verde."
+  },
+  "welcomeUnknownTitle": {
+    "message": "Sites Não Classificados"
+  },
+  "welcomeUnknownDesc": {
+    "message": "Sites que você ainda não marcou aparecem com badge amarelo."
+  },
+  "welcomeBlockedTitle": {
+    "message": "Sites Bloqueados"
+  },
+  "welcomeBlockedDesc": {
+    "message": "Sites perigosos são bloqueados automaticamente com badge vermelho."
+  },
+  "welcomeChooseTitle": {
+    "message": "🚀 Como Você Quer Começar?"
+  },
+  "welcomeChooseDesc": {
+    "message": "Preparamos uma lista com 190+ sites seguros (bancos, governo, redes sociais, e-commerce, etc) para você começar protegido desde o primeiro dia."
+  },
+  "welcomeOptionRecommended": {
+    "message": "Recomendado"
+  },
+  "welcomeOptionSafeListTitle": {
+    "message": "Usar Lista de Sites Seguros"
+  },
+  "welcomeOptionSafeListDesc": {
+    "message": "Comece com 190+ sites confiáveis já marcados"
+  },
+  "welcomeOptionEmptyTitle": {
+    "message": "Começar do Zero"
+  },
+  "welcomeOptionEmptyDesc": {
+    "message": "Crie sua própria lista personalizada desde o início"
+  },
+  "welcomeBenefit1": {
+    "message": "✅ Google, YouTube, Facebook, Instagram"
+  },
+  "welcomeBenefit2": {
+    "message": "✅ Bancos brasileiros (Nubank, Inter, Itaú, etc)"
+  },
+  "welcomeBenefit3": {
+    "message": "✅ Sites do governo (gov.br, Receita, INSS)"
+  },
+  "welcomeBenefit4": {
+    "message": "✅ E-commerce (Amazon, Mercado Livre, Shopee)"
+  },
+  "welcomeBenefit5": {
+    "message": "✅ Ferramentas populares (GitHub, Stack Overflow)"
+  },
+  "welcomeEmptyBenefit1": {
+    "message": "• Controle total sobre cada site"
+  },
+  "welcomeEmptyBenefit2": {
+    "message": "• Aprenda marcando sites manualmente"
+  },
+  "welcomeEmptyBenefit3": {
+    "message": "• Ideal para usuários experientes"
+  },
+  "welcomeNote": {
+    "message": "💡 Nota: Você pode sempre adicionar ou remover sites depois em \"Gerenciar Listas\""
+  },
+  "welcomeFooter": {
+    "message": "🔒 Seus dados ficam 100% locais no seu navegador"
+  },
+  "welcomeLoading": {
+    "message": "Carregando lista de sites seguros..."
+  },
+  "welcomeLanguageLabel": {
+    "message": "🌐 Escolha seu idioma:"
+  },
+  "optionsTitle": {
+    "message": "ICheck"
+  },
+  "optionsPageTitle": {
+    "message": "ICheck - Gerenciar Listas"
+  },
+  "optionsSubtitle": {
+    "message": "Sua muralha pessoal contra o phishing"
+  },
+  "optionsIntroTitle": {
+    "message": "🛡️ Você no Controle da Sua Segurança"
+  },
+  "optionsIntroDesc": {
+    "message": "Gerencie suas listas de sites confiáveis e não confiáveis. Todas as informações são armazenadas localmente no seu navegador e nunca são enviadas para a internet."
+  },
+  "optionsTrustedCount": {
+    "message": "Sites Confiáveis"
+  },
+  "optionsUntrustedCount": {
+    "message": "Sites Bloqueados"
+  },
+  "optionsTrustedTitle": {
+    "message": "✓ Sites Confiáveis"
+  },
+  "optionsUntrustedTitle": {
+    "message": "✗ Sites Não Confiáveis (Bloqueados)"
+  },
+  "optionsExport": {
+    "message": "⬇ Exportar"
+  },
+  "optionsSearchPlaceholder": {
+    "message": "🔍 Buscar site..."
+  },
+  "optionsSearchTrusted": {
+    "message": "🔍 Buscar site confiável..."
+  },
+  "optionsSearchUntrusted": {
+    "message": "🔍 Buscar site bloqueado..."
+  },
+  "optionsRemove": {
+    "message": "Remover"
+  },
+  "optionsEmptyTrusted": {
+    "message": "Nenhum site confiável cadastrado ainda."
+  },
+  "optionsEmptyTrustedHint": {
+    "message": "Clique no ícone do ICheck ao visitar um site para marcá-lo como confiável."
+  },
+  "optionsEmptyUntrusted": {
+    "message": "Nenhum site bloqueado ainda."
+  },
+  "optionsEmptyUntrustedHint": {
+    "message": "Sites marcados como não confiáveis serão bloqueados automaticamente."
+  },
+  "optionsNoResults": {
+    "message": "Nenhum site encontrado para"
+  },
+  "optionsManagementTitle": {
+    "message": "⚙️ Gerenciamento de Dados"
+  },
+  "optionsImport": {
+    "message": "📥 Importar Lista"
+  },
+  "optionsExportAll": {
+    "message": "📤 Exportar Tudo"
+  },
+  "optionsClearAll": {
+    "message": "🗑️ Limpar Todas as Listas"
+  },
+  "optionsAboutTitle": {
+    "message": "ℹ️ Sobre o ICheck"
+  },
+  "optionsAboutDesc": {
+    "message": "O ICheck é uma ferramenta de conscientização ativa contra phishing. Em vez de confiar em listas de terceiros, você ensina ao ICheck quais sites são legítimos."
+  },
+  "optionsAboutFeature1": {
+    "message": "100% Local: Seus dados nunca saem do seu computador"
+  },
+  "optionsAboutFeature2": {
+    "message": "100% Open Source: Código aberto e auditável"
+  },
+  "optionsAboutFeature3": {
+    "message": "Educativo: Cria o hábito de verificar URLs antes de inserir dados"
+  },
+  "optionsVersion": {
+    "message": "Versão 1.0.0"
+  },
+  "contentBlockedTitle": {
+    "message": "SITE BLOQUEADO"
+  },
+  "contentBlockedMessage": {
+    "message": "Você marcou este site como NÃO CONFIÁVEL"
+  },
+  "contentBlockedInfo": {
+    "message": "Este site está na sua lista de bloqueio pessoal."
+  },
+  "contentBtnBack": {
+    "message": "← Voltar com Segurança"
+  },
+  "contentBtnProceed": {
+    "message": "Prosseguir Mesmo Assim (Não Recomendado)"
+  },
+  "optionsTryAgain": {
+    "message": "Tente outra busca."
+  },
+  "optionsInvalidFile": {
+    "message": "Arquivo inválido. O formato deve conter um array \"sites\"."
+  },
+  "optionsImportTitle": {
+    "message": "Importar Lista"
+  },
+  "optionsImportMessage": {
+    "message": "Foram encontrados $1 sites. Importar como:",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "optionsTrustedLabel": {
+    "message": "Confiáveis"
+  },
+  "optionsUntrustedLabel": {
+    "message": "Não Confiáveis"
+  },
+  "optionsImportedTrusted": {
+    "message": "$1 sites importados como confiáveis!",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "optionsImportedUntrusted": {
+    "message": "$1 sites importados como não confiáveis!",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "optionsReadError": {
+    "message": "Erro ao ler o arquivo. Certifique-se de que é um arquivo JSON válido."
+  },
+  "optionsClearAllTitle": {
+    "message": "Limpar Todas as Listas"
+  },
+  "optionsClearAllMessage": {
+    "message": "Tem certeza que deseja remover TODOS os sites das suas listas? Esta ação não pode ser desfeita."
+  },
+  "optionsClearedAll": {
+    "message": "Todas as listas foram limpas!"
+  },
+  "optionsConfirm": {
+    "message": "Confirmar"
+  },
+  "optionsCancel": {
+    "message": "Cancelar"
+  }
+}

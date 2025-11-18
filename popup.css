@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  width: 320px;
+  background: #ffffff;
+}
+
+.popup-container {
+  padding: 0;
+}
+
+/* Status Section */
+.status-section {
+  padding: 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.status-icon {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+
+.status-message {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.site-url {
+  font-size: 0.875rem;
+  color: #6b7280;
+  word-break: break-all;
+  padding: 0.5rem;
+  background: #f9fafb;
+  border-radius: 0.375rem;
+  margin-top: 0.75rem;
+  font-family: 'Courier New', monospace;
+}
+
+/* Status Colors */
+.status-trusted .status-icon {
+  color: #059669;
+}
+
+.status-trusted .status-message {
+  color: #059669;
+}
+
+.status-untrusted .status-icon {
+  color: #dc2626;
+}
+
+.status-untrusted .status-message {
+  color: #dc2626;
+}
+
+.status-unknown .status-icon {
+  color: #f59e0b;
+}
+
+.status-unknown .status-message {
+  color: #f59e0b;
+}
+
+/* Actions */
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: white;
+  color: #374151;
+}
+
+.btn:first-child {
+  border-right: 1px solid #e5e7eb;
+}
+
+.btn-icon {
+  font-size: 1.2rem;
+}
+
+.btn-accept {
+  color: #059669;
+}
+
+.btn-accept:hover {
+  background: #f0fdf4;
+}
+
+.btn-accept:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: #f0fdf4;
+}
+
+.btn-deny {
+  color: #dc2626;
+}
+
+.btn-deny:hover {
+  background: #fef2f2;
+}
+
+.btn-deny:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: #fef2f2;
+}
+
+/* Footer */
+.footer {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.btn-settings {
+  background: none;
+  border: none;
+  color: #6b7280;
+  font-size: 0.875rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s;
+  border-radius: 0.375rem;
+  width: 100%;
+}
+
+.btn-settings:hover {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+/* Message */
+.message {
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.message-success {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.message-error {
+  background: #fee2e2;
+  color: #991b1b;
+}
