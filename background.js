@@ -48,7 +48,7 @@ chrome.runtime.onInstalled.addListener((details) => {
  * @param {Object} details - Installation details
  */
 function handleInstallation(details) {
-  chrome.storage.local.get(['firstTimeSetup', 'trustedSites', 'untrustedSites'], (result) => {
+  chrome.storage.local.get(['firstTimeSetup', 'trustedSites', 'untrustedSites', 'askToClassify'], (result) => {
     if (details.reason === 'install' && !result.firstTimeSetup) {
       openWelcomePage();
     } else {
@@ -78,6 +78,9 @@ function ensureStorageInitialized(storage) {
   }
   if (!storage.untrustedSites) {
     updates.untrustedSites = [];
+  }
+  if (typeof storage.askToClassify === 'undefined') {
+    updates.askToClassify = false;
   }
 
   if (Object.keys(updates).length > 0) {

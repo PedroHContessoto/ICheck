@@ -86,8 +86,23 @@ async function getSelectedLanguage() {
 
       // Se não há idioma salvo, usar idioma do navegador ou pt_BR
       if (!lang) {
-        const browserLang = chrome.i18n.getUILanguage().replace('-', '_');
-        resolve(SUPPORTED_LANGUAGES[browserLang] ? browserLang : 'pt_BR');
+        let browserLang = chrome.i18n.getUILanguage().replace('-', '_');
+
+        // Tenta correspondência exata
+        if (SUPPORTED_LANGUAGES[browserLang]) {
+          resolve(browserLang);
+          return;
+        }
+
+        // Tenta correspondência parcial (ex: en_US -> en)
+        const shortLang = browserLang.split('_')[0];
+        if (SUPPORTED_LANGUAGES[shortLang]) {
+          resolve(shortLang);
+          return;
+        }
+
+        // Padrão para pt_BR
+        resolve('pt_BR');
       } else {
         resolve(lang);
       }

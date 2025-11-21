@@ -415,4 +415,45 @@ body {
   .btn {
     width: 100%;
   }
+
+  .option-btn {
+    padding: 1.5rem;
+  }
+}
+
+/* Settings Toggle */
+.setting-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.switch-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.switch-container input {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.setting-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.setting-label strong {
+  color: #111827;
+  font-size: 1rem;
+}
+
+.setting-label p {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
 }

@@ -295,5 +295,26 @@
   },
   "optionsCancel": {
     "message": "Cancel"
+  },
+  "optionsBehaviorTitle": {
+    "message": "⚙️ Behavior"
+  },
+  "optionsAskTitle": {
+    "message": "Ask on new sites"
+  },
+  "optionsAskDesc": {
+    "message": "Show a popup asking if the site is trusted when you visit an unknown site."
+  },
+  "classifyTitle": {
+    "message": "ICheck Security"
+  },
+  "classifyQuestion": {
+    "message": "Is this site safe?"
+  },
+  "btnTrusted": {
+    "message": "✓ Trusted"
+  },
+  "btnBlock": {
+    "message": "✕ Block"
   }
 }

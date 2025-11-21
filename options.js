@@ -25,6 +25,7 @@ const modalMessage = document.getElementById('modalMessage');
 const btnModalCancel = document.getElementById('btnModalCancel');
 const btnModalConfirm = document.getElementById('btnModalConfirm');
 const languageSelect = document.getElementById('languageSelect');
+const askToClassify = document.getElementById('askToClassify');
 
 let pendingAction = null;
 let trustedSearchTerm = '';
@@ -57,11 +58,22 @@ languageSelect.addEventListener('change', async (e) => {
 
 // Load data from storage
 function loadData() {
-  chrome.storage.local.get(['trustedSites', 'untrustedSites'], (result) => {
+  chrome.storage.local.get(['trustedSites', 'untrustedSites', 'askToClassify'], (result) => {
     trustedSites = result.trustedSites || [];
     untrustedSites = result.untrustedSites || [];
 
+    if (askToClassify) {
+      askToClassify.checked = result.askToClassify || false;
+    }
+
     updateUI();
+  });
+}
+
+// Save setting when changed
+if (askToClassify) {
+  askToClassify.addEventListener('change', (e) => {
+    chrome.storage.local.set({ askToClassify: e.target.checked });
   });
 }
 

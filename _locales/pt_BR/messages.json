@@ -295,5 +295,26 @@
   },
   "optionsCancel": {
     "message": "Cancelar"
+  },
+  "optionsBehaviorTitle": {
+    "message": "⚙️ Comportamento"
+  },
+  "optionsAskTitle": {
+    "message": "Perguntar em novos sites"
+  },
+  "optionsAskDesc": {
+    "message": "Exibir um popup perguntando se o site é confiável quando você visitar um site desconhecido."
+  },
+  "classifyTitle": {
+    "message": "ICheck Segurança"
+  },
+  "classifyQuestion": {
+    "message": "Este site é seguro?"
+  },
+  "btnTrusted": {
+    "message": "✓ Confiável"
+  },
+  "btnBlock": {
+    "message": "✕ Bloquear"
   }
 }
